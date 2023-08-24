@@ -165,10 +165,22 @@ body {
 }
 
 .ml12 {
+    /* position: absolute; */
+    /* margin: auto; */
+    font-weight: 200;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.ml122 {
     font-weight: 200;
     font-size: 1.6em;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.ml122 .letter {
+    display: inline-block;
 }
 
 .ml12 .letter {
@@ -226,6 +238,12 @@ body {
 .ml13 {
     font-size: 1.8em;
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ml69 {
+    font-size: 1.8em;
+    text-transform: none;
     font-weight: bold;
 }
 
